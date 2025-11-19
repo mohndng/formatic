@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback, useRef } from 'react';
 import { Save, RotateCcw, RotateCw, Plus, Trash2, X, CheckCircle, Type, List, CheckSquare, Loader2, FileUp, Sparkles, Timer, Eye, ArrowLeft } from 'lucide-react';
 import { Button } from './ui/Button';
@@ -8,8 +7,8 @@ import { supabase } from '../utils/supabase';
 import { GoogleGenAI } from "@google/genai";
 import * as pdfjsLib from 'pdfjs-dist';
 
-// Set worker source for PDF.js
-pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.worker.min.mjs';
+// Set worker source for PDF.js dynamically to match the installed version
+pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjsLib.version}/build/pdf.worker.min.mjs`;
 
 interface FormBuilderProps {
   username: string;
