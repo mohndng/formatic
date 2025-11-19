@@ -1,4 +1,4 @@
-# Formatic - AI-Powered Assessment Platform
+<h1 style="text-align: center;"> Formatic - AI-Powered Assessment Platform </h1>
 
 **Formatic** is a modern, aesthetic web application designed for creating, sharing, and analyzing forms and quizzes. Built with React, Supabase, and powered by Google's Gemini 3.0 AI, it bridges the gap between document content and interactive assessment.
 
