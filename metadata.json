@@ -1,0 +1,5 @@
+{
+  "name": "Supabase Auth Modern",
+  "description": "A modern, aesthetic login and signup system using Supabase for authentication and React with Tailwind CSS.",
+  "requestFramePermissions": []
+}
