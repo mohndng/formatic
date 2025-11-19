@@ -2,7 +2,7 @@
 
 **Formatic** is a modern, aesthetic web application designed for creating, sharing, and analyzing forms and quizzes. Built with React, Supabase, and powered by Google's Gemini 3.0 AI, it bridges the gap between document content and interactive assessment.
 
-![Formatic Banner](https://via.placeholder.com/1200x600/0f0c29/6366f1?text=Formatic+AI+Platform)
+![Formatic Banner](https://raw.githubusercontent.com/mohndng/formatic/refs/heads/main/Formatic.jpg)
 
 ## 🚀 Key Features
 
